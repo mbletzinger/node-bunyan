@@ -10,6 +10,7 @@ ifeq ($(shell uname -s),SunOS)
 	SUDO :=
 endif
 DTRACE_UP_IN_HERE=
+SKIP_DTRACE=1
 ifeq ($(shell uname -s),SunOS)
     DTRACE_UP_IN_HERE=1
 endif
